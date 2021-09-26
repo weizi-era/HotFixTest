@@ -2,8 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel target="1.7">
-      <module name="HotFixTest.app" target="1.8" />
-      <module name="HotFixTest.lib" target="1.8" />
+      <module name="HotFixTest.app" target="11" />
+      <module name="HotFixTest.lib" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
