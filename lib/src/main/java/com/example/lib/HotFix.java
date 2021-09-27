@@ -81,7 +81,7 @@ public class HotFix {
         //获取程序的PathClassLoader对象
         ClassLoader classLoader = application.getClassLoader();
 
-        // 兼容Android N 混合编译  修改系统ClassLoader，使用我们自己的ClassLoader
+        // 兼容Android N 混合编译  修改系统PathClassLoader，使用我们自己的PathClassLoader
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             try {
                 NewClassLoaderInjector.inject(application, classLoader, pathListFile);
